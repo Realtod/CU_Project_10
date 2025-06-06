@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Сайт билеты</title>
+<style>
+    body{
+        background-color:#fddce2;
+        font-family:sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background:#df84a7;
+        color:white;
+        padding:15px;
+        text-align:center;
+    }
+    img{
+        width:300px;
+        margin:10px;
+    }
+    .block1{
+        background:#f9a7b0;
+        padding:15px;
+        margin:10px auto;
+        border-radius: 10px;
+        max-width: 700px;
+        box-sizing: border-box;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+    th {
+        background-color: #ffffff;
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #f49bc1;
+    }
+    td {
+        padding: 8px;
+        border: 1px solid #f49bc1;
+        background-color: #fddce2;
+    }
+    form{
+        margin:0 auto;
+        padding:15px;
+        background:#f9a7b0;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 500px;
+        box-sizing: border-box;
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 5px;
+        box-sizing: border-box;
+    }
+    button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #d84e78;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-weight: bold;
+    }
+    button:hover {
+        background-color: #a32451;
+    }
+    footer{
+        margin-top:30px;
+        text-align:center;
+        padding:15px;
+        background:#df84a7;
+        color:white;
+    }
+    a{
+        color: #5a005a;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+<header>
+    <h1>Добро пожаловать на лендинг по авиабилетам!</h1>
+    <p>Планируйте свои путешествия вместе с нами</p>
+    <img src="images/plane_1.png">
+</header>
+
+<div class="block1">
+    <h2><b>Подбираем лучшие авиабилеты</b></h2>
+    <p>Мы поможем вам найти самые выгодные предложения на авиабилеты к любому месту в мире. <br>Планируйте свои путешествия и экономьте время и деньги.</p>
+</div>
+<div class="block1">
+    <h2><b>Удобный поиск</b></h2>
+    <p>Наш удобный поиск позволит вам быстро найти нужные авиабилеты и выбрать оптимальные варианты. Просто введите город отправления и прибытия, даты поездки и мы подберем лучшие варианты для вас.</p>
+</div>
+    <div class="block1">
+    <h2><b>Безопасные онлайн-платежи</b></h2>
+    <p>Оплачивайте свои билеты онлайн удобно и безопасно. Мы гарантируем защиту ваших данных и конфиденциальность вашей информации.</p>
+</div>
+
+<div class="block1">
+    <h2><b>Цены на авиабилеты</b></h2>
+    <table>
+    <tr><th>Маршрут</th><th>Цена</th></tr>
+    <tr><td>Москва - Париж</td><td>€200</td></tr>
+    <tr><td>Нью-Йорк - Лондон</td><td>$300</td></tr>
+    <tr><td>Токио - Сидней</td><td>¥25000</td></tr>
+    </table>
+</div>
+
+<div class="block1">
+    <h2><b>Путешествуйте с удовольствием</b></h2>
+    <p>Планируйте свои путешествия с нами и наслаждайтесь каждым моментом вашего приключения. <br>Открывайте новые горизонты и дарите себе незабываемые впечателения.</p>
+</div>
+
+<div class="block1">
+    <h2><b>Изображения самолетов</b></h2>
+    <img src="images/plane_1.png">
+    <img src="images/plane_2.png">
+    <img src="images/plane_3.png">
+</div>
+
+<div class="block1">
+    <h2><b>Оставьте заявку на покупку авиабилетов</b></h2>
+    <form>
+    <label>Ф.И.О.:</label>
+    <input type="text" name="name">
+    <label>Год рождения:</label>
+    <input type="number" name="birthyear">
+    <label>Адрес:</label>
+    <input type="text" name="address">
+    <label>Номер телефона:</label>
+    <input type="text" name="phone">
+    <button type="submit">Отправить</button>
+    </form>
+</div>
+
+<div class="block1">
+    <h3><b>Официальный сайт</b></h3>
+    <p><a href="#">Посетите наш официальный сайт для бронирования билетов и получения дополнительной информации</a></p>
+</div>
+
+<footer>
+    <p>© 2022 Лендинг по авиабилетам</p> <! -- 2025 может быть -->
+</footer>
+
+</body>
+</html>
